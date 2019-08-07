@@ -5,8 +5,8 @@ import datetime
 connection_pool = pg_simple.config_pool(database='wms',
                                         host='localhost',
                                         port='54321',
-                                        user='aapi',
-                                        password='brightwolf',
+                                        user='***',
+                                        password='***',
                                         expiration=120)     # idle timeout = 120 seconds
 
 db = pg_simple.PgSimple(connection_pool,
