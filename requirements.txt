@@ -1,0 +1,2 @@
+pg-simple==0.2.3
+psycopg2==2.8.3
